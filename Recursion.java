@@ -56,8 +56,8 @@ public class Recursion {
 			return (fact_tail(n-1, n * f));
 		}
 	}
-	
-	//********************************************************** 1/3 Activities Done
+
+//********************************************************** 1/3 Activities Done
 	
     // Activity 4    int fib(int n) 
     public static int fib (int n) {
@@ -85,7 +85,7 @@ public class Recursion {
     	
     }
  
-	//********************************************************** 3/4 Projects Done
+//********************************************************** 3/4 Projects Done
     
     // Project 4    public static int balance (int x, int y)
     public static int balance (int x, int y) {
