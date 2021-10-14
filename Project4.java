@@ -29,7 +29,7 @@ public class Project4 {
 		}
 		System.out.println();
 
-		// Test power function
+		// Test the power function
 		System.out.println();
 		System.out.println("Power:");
 		for (Integer ii : testValues) {
@@ -39,7 +39,7 @@ public class Project4 {
 			System.out.println();
 		}
 
-		// Test triangle method
+		// Test the triangle method
 		System.out.println();
 		System.out.println("Triangle");
 		Recursion.triangle(2);
@@ -48,7 +48,7 @@ public class Project4 {
 		
 
 		System.out.println();
-		// Test balance function 
+		// Test the balance function 
 		System.out.println("Balance:");
 		System.out.print("[10 20]: " + Recursion.balance(10, 20) + "    ");
 		System.out.print("[20 10]: " + Recursion.balance(20, 10) + "    ");
