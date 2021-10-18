@@ -56,8 +56,8 @@ public class Recursion {
 			return (fact_tail(n-1, n * f));
 		}
 	}
-
-//********************************************************* 1/3 Activities Done
+	
+	//********************************************************** 2/3 Activities Done
 	
     // Activity 4    int fib(int n) 
     public static int fib (int n) {
@@ -76,8 +76,13 @@ public class Recursion {
     }
     
     // Activity 4    int power (int x, int y)
-    public static int power (int x, int y) {
-    	return 0;
+    public static int power (int x, int y) { //x^y
+    	if(y == 0) {
+    		return 1;
+    	}
+    	else {
+    		return x * power(x, y-1);
+    	}
     }
      
     // Activity 4    int triangle(int x)
@@ -85,7 +90,7 @@ public class Recursion {
     	
     }
  
-//********************************************************* 3/4 Projects Done
+	//********************************************************** 4/4 Projects Done
     
     // Project 4    public static int balance (int x, int y)
     public static int balance (int x, int y) {
@@ -128,7 +133,12 @@ public class Recursion {
 	
 	// Project 4    pi_approximation(int m)
 	public static double pi_approximation(int n) {
-		return 0;
+	    if(n == 0 ||n == 1) {
+	    	return 4.0;
+	    }
+	    else {
+		    return 4.0 * Math.pow(-1,n+1) * (1.0/(2*n-1)) + pi_approximation(n-1);
+	    }
 	}
 
 	// Project 4    longestSubsequence(String s) 
@@ -144,5 +154,5 @@ public class Recursion {
 		}
 	}
 
-//*********************************************************
+	//**********************************************************
 }
